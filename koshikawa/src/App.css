@@ -2,6 +2,38 @@
   text-align: center;
 }
 
+.App__title {
+  height: 10vh;
+  margin: 0;
+  padding: 0;
+}
+
+.App__number {
+  font-size: 3rem;
+}
+
+.App__button {
+  background-color: #fff;
+  border: solid 1px #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #555;
+  font-size: 2rem;
+  padding: 10px;
+  outline: none;
+  transition: .2s;
+}
+
+.App__button:hover {
+  background-color: lightblue;
+  border: solid 1px lightblue;
+  color: #fff;
+}
+
+.App__button:active {
+  transform: scale(0.9);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
